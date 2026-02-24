@@ -2,7 +2,7 @@
   "name": "desktop",
   "productName": "desktop",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Desktop application for Calliope written in Electron",
   "main": ".vite/build/main.js",
   "private": true,
   "scripts": {
@@ -17,7 +17,7 @@
     "name": "Bartosz Sass",
     "email": "sassbartek@gmail.com"
   },
-  "license": "MIT",
+  "license": "GPL-2.0-only",
   "devDependencies": {
     "@electron-forge/cli": "^7.11.1",
     "@electron-forge/maker-deb": "^7.11.1",

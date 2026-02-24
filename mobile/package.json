@@ -1,7 +1,13 @@
 {
-  "name": "mobile",
+  "name": "calliope-mobile",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "description": "Mobile application for Calliope written in React Native",
+  "author": {
+    "name": "Bartosz Sass",
+    "email": "sassbartek@gmail.com"
+  },
+  "license": "GPL-2.0-only",
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
