@@ -25,8 +25,8 @@
  *  });
  * ```
  */
-
-import './index.css';
+import "./reset.css";
+import "./global.css";
 
 console.log(
   '👋 This message is being logged by "renderer.ts", included via Vite',
