@@ -1,10 +1,8 @@
 {
-  "name": "desktop",
-  "productName": "desktop",
+  "name": "@calliope/desktop",
   "version": "1.0.0",
   "description": "Desktop application for Calliope written in Electron",
   "main": ".vite/build/main.js",
-  "private": true,
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -14,8 +12,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "Bartosz Sass",
-    "email": "sassbartek@gmail.com"
+    "name": "b-sass"
   },
   "license": "GPL-2.0-only",
   "devDependencies": {
@@ -43,5 +40,6 @@
     "electron-squirrel-startup": "^1.0.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
-  }
+  },
+  "private": true
 }

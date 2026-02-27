@@ -1,11 +1,10 @@
 {
-  "name": "calliope-mobile",
+  "name": "@calliope/mobile",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "description": "Mobile application for Calliope written in React Native",
   "author": {
-    "name": "Bartosz Sass",
-    "email": "sassbartek@gmail.com"
+    "name": "b-sass"
   },
   "license": "GPL-2.0-only",
   "scripts": {
