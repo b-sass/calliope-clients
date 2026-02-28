@@ -1,11 +1,17 @@
 import styles from "./bookcard.module.css";
 import bookCover from "../assets/images/book_cover.png";
+import { Badge } from "./Badge";
 
-const BookCard = ({ title }: { title: string }) => {
+const BookCard = ({ title, progress }: { title: string; progress: string }) => {
   return (
     <div className={styles.card}>
-      <img src={bookCover}></img>
-      <p>{title}</p>
+      <div className={styles["cover-container"]}>
+        <img src={bookCover}></img>
+        <Badge>
+          <p>{progress}</p>
+        </Badge>
+      </div>
+      <p className={styles.title}>{title}</p>
     </div>
   );
 };
