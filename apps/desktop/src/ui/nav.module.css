@@ -1,4 +1,64 @@
-div {
+.nav {
   display: flex;
   flex-direction: column;
+  padding: 8px 8px;
+  /* border: 1px solid black; */
+  /* Remove padding from navbar height */
+  height: calc(100vh - 16px);
+}
+
+.nav-element {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 16px;
+  padding: 4px 8px;
+}
+
+.nav-element:hover {
+  /* border-right: 2px solid rebeccapurple;
+  margin-right: -2px; */
+  /* background-color: antiquewhite; */
+  background-color: #eaeaea;
+  border-radius: 4px;
+}
+
+.long-nav p {
+  display: inline !important;
+  font-weight: bold;
+}
+
+.link {
+  padding-right: 8px;
+}
+
+.link div {
+  width: 100%;
+}
+
+.last {
+  margin-top: auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 8px;
+}
+
+ul > * {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 2rem;
+
+  /* Disable icon dragging */
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
