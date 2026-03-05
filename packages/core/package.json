@@ -1,0 +1,10 @@
+{
+  "name": "@calliope/core",
+  "version": "1.0.0",
+  "description": "Core packages for Calliope",
+  "author": {
+    "name": "b-sass"
+  },
+  "dependencies": {},
+  "license": "GPL-2.0-only"
+}
